@@ -1,13 +1,13 @@
 # Prakktikum-6
 
-# Code
+
+## CODE
 
 dataMahasiswa = {}
 
 print("=" * 65)
 print("|\tPROGRAM INPUT NILAI MAHASISWA MENGGUNAKAN FUNGSI\t|")
 print("=" * 65)
-
 
 def tambah():
         nama = str(input("Masukan Nama : "))
@@ -45,7 +45,6 @@ def ubah(nama):
             print("\nDATA BERHASIL DI UBAH!")
         else:
             print("\DATA TIDAK DI TEMUKAN!")
-
 while True:
     data = input(
         "\n 1 - Tambah Data,\t 2 - Tampilkan Data,\t 3 - Hapus Data,\t 4 - Ubah Data, 5 - Keluar \n : "
@@ -80,7 +79,7 @@ while True:
     else:
         print("PILIHAN MENU TIDAK ADA!")
 
-33
+
 
 # PENJELASANNYA
 
